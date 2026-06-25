@@ -1,0 +1,40 @@
+{
+  "name": "@metago-ai/skills-sdk",
+  "version": "1.0.0",
+  "description": "MetaGO Skills 官方 SDK - 用编程方式定义、验证、打包、加载自定义元构技能",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "ts-node tests/basic.test.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": {
+    "node": ">= 14"
+  },
+  "keywords": [
+    "metago",
+    "skills",
+    "sdk",
+    "lifeform",
+    "ai",
+    "kit"
+  ],
+  "author": "MetaGO AI",
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/metago/skills-sdk.git"
+  },
+  "homepage": "https://gitee.com/metago/skills-sdk#readme",
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "@types/node": "^16.18.0",
+    "ts-node": "^10.9.1"
+  }
+}
