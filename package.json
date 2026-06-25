@@ -1,6 +1,6 @@
 {
   "name": "@metago-ai/skills-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MetaGO Skills 官方 SDK - 用编程方式定义、验证、打包、加载自定义元构技能",
   "license": "MIT",
   "main": "dist/index.js",
