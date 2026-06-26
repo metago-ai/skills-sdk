@@ -24,8 +24,8 @@ export interface GenerateOptions {
   license?: string;
 }
 
-/** SDK 版本号，写入生成物的 metago 元信息中 */
-const SDK_VERSION = '1.0.0';
+/** SDK 版本号，写入生成物的 metago 元信息中（动态读取 package.json，避免硬编码） */
+const SDK_VERSION = require('../package.json').version;
 
 /**
  * 生成 Kit 的 package.json 内容

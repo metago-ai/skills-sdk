@@ -29,9 +29,9 @@
   "author": "MetaGO AI",
   "repository": {
     "type": "git",
-    "url": "https://gitee.com/metago/skills-sdk.git"
+    "url": "https://gitee.com/metago/metago-skills-sdk.git"
   },
-  "homepage": "https://gitee.com/metago/skills-sdk#readme",
+  "homepage": "https://gitee.com/metago/metago-skills-sdk#readme",
   "devDependencies": {
     "typescript": "^5.3.0",
     "@types/node": "^16.18.0",
