@@ -322,7 +322,7 @@ skills-sdk/
 ## 相关链接
 
 - **GitHub 主仓库**：https://github.com/metago-ai/metagolifeform
-- **官方网站**：https://metago-d6gfw1e4rf2a5bcad-1257074864.tcloudbaseapp.com/
+- **官方网站**：https://metago.life
 
 ## 许可证
 

@@ -1,6 +1,6 @@
-﻿{
+{
   "name": "@metago-ai/skills-sdk",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "MetaGO Skills 官方 SDK - 用编程方式定义、验证、打包、加载自定义元构技能",
   "license": "MIT",
   "main": "dist/index.js",
@@ -31,7 +31,7 @@
     "type": "git",
     "url": "https://gitee.com/metago/skills-sdk.git"
   },
-  "homepage": "https://gitee.com/metago/skills-sdk#readme",
+  "homepage": "https://metago.life",
   "devDependencies": {
     "typescript": "^5.3.0",
     "@types/node": "^16.18.0",
