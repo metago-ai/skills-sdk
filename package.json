@@ -1,7 +1,7 @@
 {
   "name": "@metago-ai/skills-sdk",
-  "version": "1.0.3",
-  "description": "MetaGO Skills 官方 SDK - 用编程方式定义、验证、打包、加载自定义元构技能",
+  "version": "1.0.4",
+  "description": "MetaGO Agent Harness（智能体运行时控制层套件 · 驭智层）Skills SDK — 用编程方式定义、验证、打包、加载自定义元构技能。TypeScript 原生，零运行时依赖。",
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -24,17 +24,28 @@
     "sdk",
     "lifeform",
     "ai",
-    "kit"
+    "kit",
+    "agent-harness",
+    "ai-governance",
+    "skill-development"
   ],
-  "author": "MetaGO AI",
+  "author": "易霄 / 元构光年（成都）人工智能科技有限公司",
+  "homepage": "https://metago.life",
   "repository": {
     "type": "git",
-    "url": "https://gitee.com/metago/skills-sdk.git"
+    "url": "https://github.com/metago-ai/skills-sdk.git"
   },
-  "homepage": "https://metago.life",
+  "bugs": {
+    "url": "https://github.com/metago-ai/skills-sdk/issues",
+    "email": "researcher.yi@youfer.cn"
+  },
   "devDependencies": {
     "typescript": "^5.3.0",
     "@types/node": "^16.18.0",
     "ts-node": "^10.9.1"
+  },
+  "metago": {
+    "rules_version": "V36.8.5",
+    "parent_package": "metago-lifeform@>=36.8.5"
   }
 }

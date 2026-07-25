@@ -4,7 +4,7 @@
 
 ## 项目介绍
 
-MetaGO Lifeform Kit 使用 `SKILL.md` 格式定义技能（YAML frontmatter + Markdown 正文）。`@metago-ai/skills-sdk` 是这一格式的官方 TypeScript SDK，它把「写技能」从手工编辑 Markdown 文件升级为可编程、可校验、可分发的工程化流程。
+MetaGO Agent Harness 使用 `SKILL.md` 格式定义技能（YAML frontmatter + Markdown 正文）。`@metago-ai/skills-sdk` 是这一格式的官方 TypeScript SDK，它把「写技能」从手工编辑 Markdown 文件升级为可编程、可校验、可分发的工程化流程。
 
 一个标准的 `SKILL.md` 长这样：
 
@@ -23,28 +23,30 @@ description: 批判性分析技能，对方案/代码/文档进行多维度质�
 - **格式统一**：通过类型化 API 与内置校验器，保证产出的 `SKILL.md` 始终符合规范。
 - **批量生产**：用代码生成技能包，避免手写大量 Markdown 文件的重复劳动。
 - **可分发**：一键生成 Kit 目录（`package.json` + `README.md` + `skills/`），便于发布与安装。
-- **可加载**：运行时从多目录加载技能，支撑技能市场与插件生态。
+- **可加载**：运行时从多目录加载技能，支撑插件生态。
 
 ### 在产品矩阵中的位置
 
 本 SDK 是 MetaGO **第 4 阶段「生态基础设施」** 的核心组件：
 
-- **向上游**：承接 Lifeform Kit 的 `SKILL.md` 标准，将其固化为可编程契约。
-- **向下游**：为技能市场、第三方开发者、企业内部技能仓库提供统一入口。
+- **向上游**：承接 Agent Harness 的 `SKILL.md` 标准，将其固化为可编程契约。
+- **向下游**：为第三方开发者、企业内部技能仓库提供统一入口。
 - **横向**：与元构 Agent、Kit 安装器协同，形成「开发 → 校验 → 分发 → 加载」闭环。
 
 ### 完整产品矩阵
 
 | 产品 | 类型 | 描述 |
 |------|------|------|
-| [Lifeform Kit](https://gitee.com/metago/metagolifeform) | 核心包 | 22核心+4Dev Kit技能，7平台支持 |
-| [Dev Kit](https://gitee.com/metago/metago-dev-kit) | 垂直包 | 开发者增强包（8技能） |
-| [MCP Server](https://www.npmjs.com/package/@metago-ai/mcp-server) | 平台工具 | 22 tools + 8 prompts MCP服务 |
-| [CLI](https://gitee.com/metago/metago-cli) | 平台工具 | 跨平台命令行工具 |
-| [Studio](https://gitee.com/metago/metago-studio) | 平台工具 | 可视化技能编排平台 |
-| **Skills SDK**（本产品） | 生态基础设施 | TypeScript技能开发SDK |
-| [Skills Hub](https://gitee.com/metago/skills-hub) | 生态基础设施 | 技能市场 |
-| [Certify](https://gitee.com/metago/certify) | 生态基础设施 | 技能认证体系（Gold/Silver） |
+| [Agent Harness](https://github.com/metago-ai/metagolifeform) | 核心包 | 95 技能，7 平台支持 |
+| [Engine V2.1.0](https://www.npmjs.com/package/@metago-ai/engine) | 引擎内核 | KMWI 四层记忆 + 元进化五阶段 + 927 算法驱动 |
+| [Algorithms](https://www.npmjs.com/package/@metago-ai/algorithms) | 算法服务 | 927 算法 / 57 工具 / 14 触发大类 MCP 服务器 |
+| [Dev Kit](https://www.npmjs.com/package/@metago-ai/dev-kit) | 垂直包 | 开发者增强包（4 复用 + 4 新增 = 8 技能） |
+| [MCP Server](https://www.npmjs.com/package/@metago-ai/mcp-server) | 平台工具 | 53 tools + 8 prompts MCP 服务 |
+| [Verify Kit](https://www.npmjs.com/package/@metago-ai/verify-kit) | 质量保证 | 七层验证 + L8 缺陷猎杀（11 维度） |
+| [CLI](https://github.com/metago-ai/metago-cli) | 平台工具 | 跨平台命令行工具 |
+| [Studio](https://github.com/metago-ai/metago-studio) | 平台工具 | 可视化技能编排平台 |
+| [Skills SDK](https://github.com/metago-ai/skills-sdk) | 生态基础设施 | TypeScript 技能开发 SDK（本产品） |
+| [Certify](https://github.com/metago-ai/certify) | 生态基础设施 | 技能认证体系（Gold/Silver） |
 
 ## 安装
 
@@ -326,4 +328,4 @@ skills-sdk/
 
 ## 许可证
 
-MIT © MetaGO AI
+MIT © 2026 易霄 / 元构光年（成都）人工智能科技有限公司
